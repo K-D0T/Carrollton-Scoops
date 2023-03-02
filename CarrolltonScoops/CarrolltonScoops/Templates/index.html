@@ -1,0 +1,79 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" style="font-family: Aldrich, sans-serif;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <meta name="description" content="Uber for Carrollton because there are none">
+    <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap">
+    <link rel="stylesheet" href="{% static 'fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Hero-Clean-Reverse-images.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top py-3" id="mainNav" style="background: rgb(39,38,46);">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"><a class="navbar-brand d-flex align-items-center" href="/" style="margin-top: 10px;margin-bottom: 10px;"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgb(153,186,221);"><i class="fa fa-car"></i></span><span style="font-family: Aldrich, sans-serif;">Carrollton Scoops</span></a></div>
+                    <div class="col-md-6 d-flex justify-content-end"><a class="my-auto" href="/login/" style="font-family: Inter, sans-serif;">Login | </a><a class="my-auto" href="/signup/" style="font-family: Inter, sans-serif;">&nbsp;Sign up</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-dark" style="background: rgb(45,44,56);">
+        <section>
+            <div style="height: 320px;background: url(&quot;{% static 'img/theSquare.jpg' %}&quot;) center / contain no-repeat;">
+                <div class="container h-100" style="height: 457px;">
+                    <div class="row h-100">
+                        <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center" style="margin-top: 0px;">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold" style="color: rgb(0,0,0);text-shadow: 4px 0px;">Uber For Carrollton</h1>
+                                <p class="my-3"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container py-4 py-xl-5">
+            <div class="row gy-4 gy-md-0">
+                <div class="col-md-6">
+                    <div class="p-xl-5 m-xl-5">
+                        <h2 class="text-uppercase fw-bold" style="text-align: center;">Get Scooped From the Square</h2>
+                        <p class="my-3" style="font-family: Inter, sans-serif;">Introducing Carrollton Scoops, the safe and affordable ride-sharing service in Carrollton, Georgia. Our flat-rate rides of $15 aim to lower DUI charges by providing reliable and comfortable rides with professional drivers who have undergone thorough background checks and training. Choose Carrollton Scoops for a safe and worry-free ride home.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div style="max-width: 350px;"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="{% static 'img/police-cop-car-with-siren-front-view-simple-black-vector-31307540.jpg' %}" width="444" height="300"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4 py-xl-5">
+            <div class="row gy-4 gy-md-0">
+                <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div style="max-width: 350px;">
+                        <h2 class="text-uppercase fw-bold">What's Up everyone</h2>
+                        <p class="my-3" style="font-family: Inter, sans-serif;">My name is Kaiden Thrailkill I am a cheerleader at UWG. My goal with this webapp is to reduce the number of DUI's in Carrollton. This app will work similarly to Uber, all you do is enter your name, email, phone number, and the destination address. If the address is in Carrollton it is a flat rate of $15 no matter the number of riders per trip. Click the button below to visit my Instagram.&nbsp;</p><a class="btn btn-primary btn-lg me-2" role="button" style="background: rgb(153,186,221);width: 141.047px;height: 48.5938px;margin: 0px;padding: 5.8px 40px;padding-right: 0;padding-left: 0;" href="https://www.instagram.com/kaiden.thrailkill/?hl=en">Instagram</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="{% static 'img/358413EC-B8D1-4067-A58A-85CFAE1C6079L0001.png.png.jpg' %}"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/bs-init.js' %}"></script>
+    <script src="{% static 'js/bold-and-dark.js' %}"></script>
+</body>
+
+</html>
